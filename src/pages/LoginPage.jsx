@@ -20,7 +20,7 @@ function LoginPage() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Login</h1>
+        <h1>Hospital XP</h1>
         <form onSubmit={handleLogin}>
           <div>
             <label>Email:</label>

@@ -1,11 +1,13 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import '../App.css';
-import './paciente.css'
+import './paciente.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PacienteDetalhes = ({ patients }) => {
   const { cpf } = useParams();
-  const patient = patients.find((p) => p.CPF === cpf);
+  const patient = patients.find((p) => p.cpf === cpf);
 
   if (!patient) {
     return <div>Paciente não encontrado</div>;
@@ -13,28 +15,30 @@ const PacienteDetalhes = ({ patients }) => {
 
   return (
     <div className="App">
-
-    <div className="container paciente-detalhes">
-      <header>
-        <h1>Detalhes do Paciente</h1>
-      </header>
-      <div>
-        <p><strong>Nome Completo:</strong> {patient.NomeCompleto}</p>
-        <p><strong>Data de Nascimento:</strong> {patient.DataNascimento}</p>
-        <p><strong>Gênero:</strong> {patient.Genero}</p>
-        <p><strong>Cor:</strong> {patient.Cor}</p>
-        <p><strong>CPF:</strong> {patient.CPF}</p>
-        <p><strong>Nome da Mãe:</strong> {patient.NomeMae}</p>
-        <p><strong>Nome do Pai:</strong> {patient.NomePai}</p>
-        <p><strong>Email:</strong> {patient.Email}</p>
-        <p><strong>Celular:</strong> {patient.Celular}</p>
-        <p><strong>CEP:</strong> {patient.CEP}</p>
-        <p><strong>UF:</strong> {patient.UF}</p>
-        <p><strong>Município:</strong> {patient.Municipio}</p>
-        <p><strong>Rua:</strong> {patient.Rua}</p>
-        <p><strong>Número:</strong> {patient.NumeroRua}</p>
+      <div className="container paciente-detalhes">
+        <header className="header">
+          <Link to="/pacientes" className="link-voltar">
+            <FontAwesomeIcon icon={faArrowLeft} />
+          </Link>
+          <h1 className="titulo">Detalhes do Paciente</h1>
+        </header>
+        <div>
+          <p><strong>Nome Completo:</strong> {patient.nome}</p>
+          <p><strong>Data de Nascimento:</strong> {patient.data_nasc}</p>
+          <p><strong>Gênero:</strong> {patient.sexo}</p>
+          <p><strong>Cor:</strong> {patient.cor == 'preto' ? 'Preto' : patient.cor == 'branco' ? 'Branco' : patient.cor == 'vermelho' ? 'Pardo' : patient.cor == 'amarelo' ? 'Amarelo' : 'Indígena'}</p>
+          <p><strong>CPF:</strong> {patient.cpf}</p>
+          <p><strong>Nome da Mãe:</strong> {patient.mae}</p>
+          <p><strong>Nome do Pai:</strong> {patient.pai}</p>
+          <p><strong>Email:</strong> {patient.email}</p>
+          <p><strong>Celular:</strong> {patient.celular}</p>
+          <p><strong>CEP:</strong> {patient.cep}</p>
+          <p><strong>UF:</strong> {patient.estado}</p>
+          <p><strong>Município:</strong> {patient.cidade}</p>
+          <p><strong>Endereço:</strong> {patient.endereco}</p>
+          <p><strong>Número:</strong> {patient.numero}</p>
+        </div>
       </div>
-    </div>
     </div>
   );
 };

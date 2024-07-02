@@ -55,3 +55,21 @@ body {
     background-color: #5c5c5c;
   }
   
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-voltar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff; /* cor do texto */
+    margin-right: 10px; /* espaçamento entre o ícone e o texto */
+    font-size: 24px;
+  }
+  
+  .titulo {
+    margin-left: 10px; /* espaçamento entre o título e o botão */
+  }
+  
