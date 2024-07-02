@@ -14,7 +14,7 @@ const PacienteDetalhes = ({ patients }) => {
   }
 
   return (
-    <div className="App">
+    <div >
       <div className="container paciente-detalhes">
         <header className="header">
           <Link to="/pacientes" className="link-voltar">
