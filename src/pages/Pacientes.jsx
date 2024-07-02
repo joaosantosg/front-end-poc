@@ -762,7 +762,7 @@ function PacientesPage() {
   
 
   return (
-    <div className="App">
+    <div className='container'>
       <header>
         <h1>Lista de Pacientes</h1>
       </header>
@@ -788,6 +788,10 @@ function PacientesPage() {
           ))}
         </tbody>
       </table>
+      <footer>
+        <p>Quantidade de pacientes: {patients.length}</p>
+        
+      </footer>
     </div>
   );
 }
