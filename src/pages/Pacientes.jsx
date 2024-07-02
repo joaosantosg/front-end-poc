@@ -7,7 +7,7 @@ function PacientesPage() {
   return (
     <div className='container'>
       <header>
-        <h1>Lista de Pacientes</h1>
+        <h1> Hospital XP </h1>
       </header>
       <table>
         <thead>

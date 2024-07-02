@@ -25,7 +25,7 @@ const PacienteDetalhes = ({ patients }) => {
           <p><strong>Nome Completo:</strong> {patient.nome}</p>
           <p><strong>Data de Nascimento:</strong> {patient.data_nasc}</p>
           <p><strong>Gênero:</strong> {patient.sexo}</p>
-          <p><strong>Cor:</strong> {patient.cor == 'preto' ? 'Preto' : patient.cor == 'branco' ? 'Branco' : patient.cor == 'vermelho' ? 'Pardo' : patient.cor == 'amarelo' ? 'Amarelo' : 'Indígena'}</p>
+          <p><strong>Cor:</strong> {patient.cor}</p>
           <p><strong>CPF:</strong> {patient.cpf}</p>
           <p><strong>Nome da Mãe:</strong> {patient.mae}</p>
           <p><strong>Nome do Pai:</strong> {patient.pai}</p>
