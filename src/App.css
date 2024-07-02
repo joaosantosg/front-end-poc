@@ -1,29 +1,28 @@
 
 
-.card {
-  padding: 2em;
-}
 
 .read-the-docs {
-  color: #888;
+  color: #000000;
 }
 
 .App {
-  text-align: center;
-  width: 98vw;
-  justify-content: center;
-  align-items: center;
+  width: 100vw
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000000;
+}
+
+.App-header h1 {
+  font-size: 2em;
+  color: black
 }
 
 form {
@@ -33,7 +32,7 @@ form {
 }
 
 div {
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 
 label {
@@ -44,6 +43,8 @@ input {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: white;
+  color: #000000;
 }
 
 button {
@@ -78,12 +79,11 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 header h1 {
   font-size: 2em;
-  color: #333;
+  color: #000000;
 }
 
 table {
@@ -118,11 +118,12 @@ table tr:hover {
 }
 
 .paciente-detalhes div {
-  background-color: #4c4c4c;
+  background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: left;
+  color: black;
 }
 
 .paciente-detalhes div p {
