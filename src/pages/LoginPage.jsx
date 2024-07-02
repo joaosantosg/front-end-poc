@@ -3,15 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import '../App.css';
 
 function LoginPage() {
-  const [email, setEmail] = useState('test@example.com');
-  const [password, setPassword] = useState('password123');
+  const [email, setEmail] = useState('teste@exemplo.com');
+  const [password, setPassword] = useState('senha123');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleLogin = (event) => {
     event.preventDefault();
-    if (email === 'test@example.com' && password === 'password123') {
-      navigate('/patients');
+    if (email === 'teste@exemplo.com' && password === 'senha123') {
+      navigate('/pacientes');
     } else {
       setError('Invalid email or password');
     }
