@@ -170,14 +170,12 @@ function App() {
   
 
   return (
-    <Router>
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/pacientes" element={<PacientesPage />} />
         <Route path="/" element={<Navigate replace to="/login" />} />
         <Route path="/paciente/:cpf" element={<PacienteDetalhes patients={patients} />} />
       </Routes>
-    </Router>
   );
 }
 
