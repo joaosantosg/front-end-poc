@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import '../App.css';
 
 function LoginPage() {
-  const [email, setEmail] = useState('teste@exemplo.com');
-  const [password, setPassword] = useState('senha123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
