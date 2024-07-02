@@ -16,7 +16,6 @@ function PacientesPage() {
             <th>CPF</th>
             <th>Email</th>
             <th>Celular</th>
-            <th>Cor</th>
           </tr>
         </thead>
         <tbody>
@@ -28,7 +27,6 @@ function PacientesPage() {
               <td className={index % 2 === 0 ? 'claro' : 'escuro'}>{patient.cpf}</td>
               <td className={index % 2 === 0 ? 'claro' : 'escuro'}>{patient.email}</td>
               <td className={index % 2 === 0 ? 'claro' : 'escuro'}>{patient.celular}</td>
-              <td className={index % 2 === 0 ? 'claro' : 'escuro'}>{patient.cor}</td>
             </tr>
           ))}
         </tbody>
