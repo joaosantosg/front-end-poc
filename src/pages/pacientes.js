@@ -23,7 +23,7 @@ const pacientes =
 		"altura": "1,90",
 		"peso": 69,
 		"tipo_sanguineo": "B-",
-		"cor": "verde"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Manuel Ricardo Galvão",
@@ -48,7 +48,7 @@ const pacientes =
 		"altura": "1,85",
 		"peso": 50,
 		"tipo_sanguineo": "AB+",
-		"cor": "preto"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Miguel Roberto Castro",
@@ -73,7 +73,7 @@ const pacientes =
 		"altura": "1,72",
 		"peso": 72,
 		"tipo_sanguineo": "B-",
-		"cor": "azul"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Ana Aurora Sarah Nogueira",
@@ -98,7 +98,7 @@ const pacientes =
 		"altura": "1,76",
 		"peso": 63,
 		"tipo_sanguineo": "B-",
-		"cor": "laranja"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Fábio Levi Almeida",
@@ -123,7 +123,7 @@ const pacientes =
 		"altura": "2,00",
 		"peso": 56,
 		"tipo_sanguineo": "A-",
-		"cor": "verde"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Cauã Giovanni Carlos Eduardo Teixeira",
@@ -148,7 +148,7 @@ const pacientes =
 		"altura": "1,78",
 		"peso": 107,
 		"tipo_sanguineo": "B-",
-		"cor": "vermelho"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Luís Breno Pinto",
@@ -173,7 +173,7 @@ const pacientes =
 		"altura": "1,92",
 		"peso": 55,
 		"tipo_sanguineo": "O+",
-		"cor": "azul"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Manoel Renato Renato Peixoto",
@@ -198,7 +198,7 @@ const pacientes =
 		"altura": "1,81",
 		"peso": 61,
 		"tipo_sanguineo": "B-",
-		"cor": "vermelho"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Arthur Yuri Oliver Moreira",
@@ -223,7 +223,7 @@ const pacientes =
 		"altura": "1,62",
 		"peso": 63,
 		"tipo_sanguineo": "O-",
-		"cor": "vermelho"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Agatha Antonella Marina Caldeira",
@@ -248,7 +248,7 @@ const pacientes =
 		"altura": "1,73",
 		"peso": 64,
 		"tipo_sanguineo": "A+",
-		"cor": "preto"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Jorge Henrique Benedito Silveira",
@@ -273,7 +273,7 @@ const pacientes =
 		"altura": "1,62",
 		"peso": 65,
 		"tipo_sanguineo": "O+",
-		"cor": "azul"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Lara Lavínia Almada",
@@ -298,7 +298,7 @@ const pacientes =
 		"altura": "1,82",
 		"peso": 88,
 		"tipo_sanguineo": "B-",
-		"cor": "verde"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Benedito César Lopes",
@@ -323,7 +323,7 @@ const pacientes =
 		"altura": "1,65",
 		"peso": 61,
 		"tipo_sanguineo": "A+",
-		"cor": "vermelho"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Caleb Ruan Tomás Brito",
@@ -348,7 +348,7 @@ const pacientes =
 		"altura": "1,72",
 		"peso": 81,
 		"tipo_sanguineo": "AB+",
-		"cor": "azul"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Hadassa Lara Duarte",
@@ -373,7 +373,7 @@ const pacientes =
 		"altura": "1,70",
 		"peso": 71,
 		"tipo_sanguineo": "AB+",
-		"cor": "amarelo"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Anderson Bryan Bernardes",
@@ -398,7 +398,7 @@ const pacientes =
 		"altura": "1,81",
 		"peso": 69,
 		"tipo_sanguineo": "A-",
-		"cor": "amarelo"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Valentina Marlene Monteiro",
@@ -423,7 +423,7 @@ const pacientes =
 		"altura": "1,83",
 		"peso": 68,
 		"tipo_sanguineo": "AB+",
-		"cor": "azul"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Ruan Enzo da Cruz",
@@ -448,7 +448,7 @@ const pacientes =
 		"altura": "1,83",
 		"peso": 107,
 		"tipo_sanguineo": "O+",
-		"cor": "verde"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Analu Heloise Nascimento",
@@ -473,7 +473,7 @@ const pacientes =
 		"altura": "1,75",
 		"peso": 75,
 		"tipo_sanguineo": "O+",
-		"cor": "amarelo"
+		"cor": "Preta"
 	},
 	{
 		"nome": "Eliane Isis Alves",
@@ -498,7 +498,7 @@ const pacientes =
 		"altura": "1,53",
 		"peso": 47,
 		"tipo_sanguineo": "AB-",
-		"cor": "roxo"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Antônia Silvana Lavínia Souza",
@@ -523,7 +523,7 @@ const pacientes =
 		"altura": "1,62",
 		"peso": 67,
 		"tipo_sanguineo": "AB-",
-		"cor": "amarelo"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Theo Cláudio da Mata",
@@ -548,7 +548,7 @@ const pacientes =
 		"altura": "1,77",
 		"peso": 81,
 		"tipo_sanguineo": "AB+",
-		"cor": "vermelho"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Ayla Elisa Gonçalves",
@@ -573,7 +573,7 @@ const pacientes =
 		"altura": "1,75",
 		"peso": 64,
 		"tipo_sanguineo": "B+",
-		"cor": "verde"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Theo Thiago Silva",
@@ -598,7 +598,7 @@ const pacientes =
 		"altura": "1,83",
 		"peso": 85,
 		"tipo_sanguineo": "AB-",
-		"cor": "verde"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Tatiane Manuela Luana Aragão",
@@ -623,7 +623,7 @@ const pacientes =
 		"altura": "1,58",
 		"peso": 68,
 		"tipo_sanguineo": "B-",
-		"cor": "verde"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Benjamin Matheus Igor Fogaça",
@@ -648,10 +648,10 @@ const pacientes =
 		"altura": "1,95",
 		"peso": 71,
 		"tipo_sanguineo": "A+",
-		"cor": "verde"
+		"cor": "Branca"
 	},
 	{
-		"nome": "Gael Benício Corte Real",
+		"nome": "Gael Benício Corte Branca",
 		"idade": 71,
 		"cpf": "729.974.558-55",
 		"rg": "31.994.523-6",
@@ -659,8 +659,8 @@ const pacientes =
 		"sexo": "Masculino",
 		"signo": "Peixes",
 		"mae": "Letícia Esther",
-		"pai": "Arthur Bernardo Corte Real",
-		"email": "gael_benicio_cortereal@anac.gov.br",
+		"pai": "Arthur Bernardo Corte Branca",
+		"email": "gael_benicio_cortereal@Branca.gov.br",
 		"senha": "oFrygbsKKi",
 		"cep": "40460-180",
 		"endereco": "Rua do Muro",
@@ -673,7 +673,7 @@ const pacientes =
 		"altura": "1,86",
 		"peso": 64,
 		"tipo_sanguineo": "B+",
-		"cor": "vermelho"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Henrique Breno da Rosa",
@@ -698,7 +698,7 @@ const pacientes =
 		"altura": "1,68",
 		"peso": 109,
 		"tipo_sanguineo": "AB+",
-		"cor": "amarelo"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Murilo Luan Vieira",
@@ -723,7 +723,7 @@ const pacientes =
 		"altura": "2,00",
 		"peso": 108,
 		"tipo_sanguineo": "A+",
-		"cor": "preto"
+		"cor": "Branca"
 	},
 	{
 		"nome": "Benício Tiago Julio Figueiredo",
@@ -748,7 +748,7 @@ const pacientes =
 		"altura": "1,76",
 		"peso": 80,
 		"tipo_sanguineo": "B+",
-		"cor": "preto"
+		"cor": "Branca"
 	}
 ]
 
