@@ -254,12 +254,18 @@ button {
     color: white;
     cursor: pointer;
     width: 100%;
-    height: 70px;
+    height: 60px;
     font-size: 1em;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
   }
   
   button:hover {
     background-color: #21a1f1;
+    /* AUmenta de tamanho */
+    transform: scale(1.1);
 }
 
 input {
